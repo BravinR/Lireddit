@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../betterreddit-web"
+		}
+	],
+	"settings": {
+		"terminal.integrated.fontFamily": "Hack NF",
+		"terminal.integrated.fontSize": 16
+	}
+}

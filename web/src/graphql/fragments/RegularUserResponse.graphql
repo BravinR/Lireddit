@@ -1,0 +1,10 @@
+#import "../fragment/RegularUserResponse"
+
+fragment RegularUserResponse on UserResponse{
+  errors{
+      ...RegularError
+    }
+    user{
+      ...RegularUser
+    }
+}

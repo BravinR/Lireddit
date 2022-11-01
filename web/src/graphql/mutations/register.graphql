@@ -1,0 +1,7 @@
+#import "../fragment/RegularUserResponse"
+
+mutation Register($options: UsernamePasswordInput!) {
+  register(options: $options) {
+    ...RegularUserResponse
+  }
+}

@@ -1,0 +1,7 @@
+#import "../fragment/RegularUser"
+
+query Me {
+  me{
+    ...RegularUser
+  }
+}
